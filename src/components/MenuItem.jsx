@@ -5,7 +5,7 @@ export default function MenuItem({title, address, Icon}) {
   return (
     <Link href={address} className='hover:text-amber-500'>
         <Icon className='text-2xl sm:hidden'/>
-        <p className='ut-2text-2xl sm:hiddenppercase hidden sm:inline text-sm'>{title}</p>
+        <p className='uppercase text-2text-2xl sm:hiddenppercase hidden sm:inline text-sm'>{title}</p>
     </Link>
   )
 }
